@@ -1,0 +1,98 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .title-font {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagenes/fondo1.jpeg);
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .nav-link:hover {
+            color: #F59E0B;
+        }
+        
+        .btn-primary {
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            background-color: #D97706;
+        }
+        
+        .inicio {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.2rem 1.4rem;
+        max-width: auto;
+        margin: 0 auto;
+        }
+
+        .cuerpo{
+            background-color: #f9fafb;
+        }
+
+        .encabezado{
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+        }
+
+        .nav-link {
+            color: #1f2937;               
+            font-weight: 500;             
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #f59e0b;              
+        }
+
+        .mobile-menu {
+            display: none;
+            background-color: #ffffff;
+            padding: 1rem;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (min-width: 768px) {
+            .mobile-menu {
+                display: none;
+            }
+        }
+
+        .contendor-sup {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .busc-secciones {
+            display: block;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            color: #1f2937;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        .contendor-mid {
+            display: flex;
+            align-items: center;
+        }
